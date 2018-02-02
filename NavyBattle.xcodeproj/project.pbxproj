@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A2422642024458C00D98DA7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2422632024458C00D98DA7 /* main.swift */; };
+		3A24226B202445A000D98DA7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24226A202445A000D98DA7 /* main.swift */; };
+		3A24226D202446DC00D98DA7 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24226C202446DC00D98DA7 /* Ship.swift */; };
+		3A24226F202446FD00D98DA7 /* CasePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24226E202446FD00D98DA7 /* CasePosition.swift */; };
+		3A2422712024471700D98DA7 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2422702024471700D98DA7 /* GameBoard.swift */; };
+		3A242273202447EC00D98DA7 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A242272202447EC00D98DA7 /* Enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,11 @@
 
 /* Begin PBXFileReference section */
 		3A2422602024458C00D98DA7 /* NavyBattle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NavyBattle; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A2422632024458C00D98DA7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3A24226A202445A000D98DA7 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../../Downloads/NavyBattleTP4/NavyBattle/main.swift; sourceTree = "<group>"; };
+		3A24226C202446DC00D98DA7 /* Ship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		3A24226E202446FD00D98DA7 /* CasePosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasePosition.swift; sourceTree = "<group>"; };
+		3A2422702024471700D98DA7 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		3A242272202447EC00D98DA7 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 		3A2422622024458C00D98DA7 /* NavyBattle */ = {
 			isa = PBXGroup;
 			children = (
-				3A2422632024458C00D98DA7 /* main.swift */,
+				3A24226A202445A000D98DA7 /* main.swift */,
+				3A24226C202446DC00D98DA7 /* Ship.swift */,
+				3A24226E202446FD00D98DA7 /* CasePosition.swift */,
+				3A2422702024471700D98DA7 /* GameBoard.swift */,
+				3A242272202447EC00D98DA7 /* Enum.swift */,
 			);
 			path = NavyBattle;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A2422642024458C00D98DA7 /* main.swift in Sources */,
+				3A2422712024471700D98DA7 /* GameBoard.swift in Sources */,
+				3A24226F202446FD00D98DA7 /* CasePosition.swift in Sources */,
+				3A24226B202445A000D98DA7 /* main.swift in Sources */,
+				3A242273202447EC00D98DA7 /* Enum.swift in Sources */,
+				3A24226D202446DC00D98DA7 /* Ship.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
